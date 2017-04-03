@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyFramework>
+	<action name="addCustomer" class="cn.kevin.domain.Customer" method="addCustomer">
+		<result type="dispatcher" name="success">/success.jsp</result>
+		<result type="dispatcher" name="error">/error.jsp</result>
+	</action>
+</MyFramework>
